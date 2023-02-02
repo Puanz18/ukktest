@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="icon" href="img/121.jpg">
+    <link rel="icon" href="img/sss.jpg">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
@@ -39,8 +39,7 @@
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div>
                     <div class="d-gird gap-2">
-                    <a href="www.youtube.com">
-                    <button type="submit" class="btn btn-primary">Gas kan</button></a>
+                    <button type="submit" class="btn btn-primary">Gas kan</button>
                     </div>
                     <div class="d-gird gap-2">
                     <button type="submit" class="btn btn-primary" class="button">Daftar</button>
