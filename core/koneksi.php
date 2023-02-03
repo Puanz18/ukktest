@@ -15,11 +15,22 @@
             $row = mysqli_fetch_aarray($query);
             if ($row['uername'] == $username AND $row['password'] == $password){
                 if($row['level'] == 'admin'){
-
+                    session_start();
+                    $_SESSION['id_petugas'] = $row['id_petugas'];
+                    $_SESSION['username'] = $row['username'];
+                    $_SESSION['level'] = $row['level'];
+                    header("location:../dashboard");
                 }elseif(['level'] == 'petugas'){
-  
+                    session_start();
+                    $_SESSION['id_petugas'] = $row['id_petugas'];
+                    $_SESSION['username'] = $row['username'];
+                    $_SESSION['level'] = $row['level'];
+                    header("location:../dashboard");
                 }else{
                     session_start();
+                    $_SESSION['nisn'] = $row['nisn'];
+                    $_SESSION['username'] = $row['username'];
+                    header("location:../dashboard");
                 }
             }else{
                 session_start();

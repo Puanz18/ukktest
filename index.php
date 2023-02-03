@@ -25,7 +25,7 @@
                 <h1 class="card-title text-center">L O G I N</h1>
             </div>
             <div class="card-text">
-                <form>
+                <form action="proses/proses_login.php" method="POST>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -38,7 +38,7 @@
                     <button type="submit" class="btn btn-primary">Gas kan</button>
                     </div>
                     <div class="d-gird gap-2">
-                    <button type="submit" class="btn btn-primary" class="button">Daftar</button>
+                    <button type="submit" class="btn btn-primary btn-daftar">Daftar</button>
                     </div>
                 </form>
             </div>

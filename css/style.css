@@ -58,6 +58,7 @@ input[type="password"]:focus {
     border-radius: 10px !important;
     margin: 4px;
 }
+
 .back-video {
     position: absolute;
     right: 0;
