@@ -25,20 +25,20 @@
                 <h1 class="card-title text-center">L O G I N</h1>
             </div>
             <div class="card-text">
-                <form action="proses/proses_login.php" method="POST>
+                <form action="proses/proses_login.php" method="POST">
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="exampleInputEmail1" class="form-label">Username</label>
+                        <input type="text" class="form-control" name="username">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <input type="password" class="form-control" name="password">
                     </div>
                     <div class="d-gird gap-2">
-                    <button type="submit" class="btn btn-primary">Gas kan</button>
+                    <button type="submit" name="submit"class="btn btn-primary">Gas kan</button>
                     </div>
                     <div class="d-gird gap-2">
-                    <button type="submit" class="btn btn-primary btn-daftar">Daftar</button>
+                    <button type="button" class="btn btn-primary btn-daftar">Daftar</button>
                     </div>
                 </form>
             </div>
