@@ -8,6 +8,7 @@
         {
             mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
             $this->kon = mysqli_connect("localhost","root","") or die("couldn't connect to MySQL server");
+            mysqli_select_db($this->kon, "ukktest");
         }
 
         public function login($username,$password) {
