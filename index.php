@@ -37,9 +37,6 @@
                     <div class="d-gird gap-2">
                     <button type="submit" name="submit"class="btn btn-primary">Gas kan</button>
                     </div>
-                    <div class="d-gird gap-2">
-                    <button type="button" class="btn btn-primary btn-daftar">Daftar</button>
-                    </div>
                 </form>
             </div>
         </div>
