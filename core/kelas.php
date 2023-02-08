@@ -38,7 +38,13 @@
 
                 echo "<tr>";
                 echo "<td>" . $no ++ . "</td>";
-                echo
+                echo "<td>" . $this->id_kelas . "</td>";
+                echo "<td>" . $this->nama_kelas . "</td>";
+                echo "<td>" . $this->kompetesi_keahlian . "</td>";
+                echo "<td>";
+                ?>
+                    <a href="../dashboard?url=editkelas&id_kelas=<?=$this->id_kelas ?>">Edit kelasw</a> | <a href="../proses/proses_hapus_siswa.php?id_kelas=<?=id_kelas ?>">Hapus Kelas</a>
+                    <?php
             }
         }
     }
