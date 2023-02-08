@@ -53,7 +53,7 @@ input[type="password"]:focus {
     width: 100%;
     background: #1a2226 !important;
     color: #fff !important;
-    transform: translateY(7px);
+    transform: translateY(1px);
     font-size: 14px;
     border-radius: 10px !important;
     margin: 4px;
