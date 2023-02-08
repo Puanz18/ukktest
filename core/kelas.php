@@ -27,4 +27,18 @@
             header(Location:../dashboard?url=kelas);
             }
         }
+
+        public function tampilKelas(){
+            $query = mysqli_query($this->koneksi, "SELECT * FROM kelas");
+            $no = 1;
+            while ($result = mysqli_fetch_array($query)) {
+                $this->id_kelas = $result['id_kelas'];
+                $this->nama_kelas = $result['nama_kelas'];
+                $this->kompetesi_keahlian = $result['komppetesi_keahlian'];
+
+                echo "<tr>";
+                echo "<td>" . $no ++ . "</td>";
+                echo
+            }
+        }
     }
