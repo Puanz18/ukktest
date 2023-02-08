@@ -72,7 +72,6 @@ if (empty($_SESSION['username'])) {
     </style>
 
     
-    <!-- Custom styles for this template -->
     <link href="sidebars.css" rel="stylesheet">
   </head>
   <body>
@@ -116,31 +115,31 @@ if (empty($_SESSION['username'])) {
       <li class="nav-item">
         <a href="#" class="nav-link active" aria-current="page">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"/></svg>
-          Home
+          Admin
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
-          Dashboard
+          History
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"/></svg>
-          Orders
+          Kelas
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
-          Products
+          Petugas
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
-          Customers
+          Siswa
         </a>
       </li>
     </ul>
