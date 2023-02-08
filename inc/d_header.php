@@ -9,6 +9,6 @@
 
             </div>
         </div>
-        <div clas
+        <div clas="flex flex-1 md"
     </nav>
 </header>
