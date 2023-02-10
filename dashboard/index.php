@@ -3,6 +3,7 @@ session_start();
 if (empty($_SESSION['username'])) {
     header('Location: ../index.php');
 }
+include_once('../inc/d_auth.php');
 ?>
 <!doctype html>
 <html lang="en">
@@ -107,7 +108,6 @@ if (empty($_SESSION['username'])) {
 
   <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
       <span class="fs-4">Dashboard</span>
     </a>
     <hr>
@@ -125,7 +125,7 @@ if (empty($_SESSION['username'])) {
         </a>
       </li>
       <li>
-        <a href="kelas/index.php" class="nav-link text-white">
+        <a href="?url=kelas" class="nav-link text-white">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"/></svg>
           Kelas
         </a>
@@ -158,7 +158,9 @@ if (empty($_SESSION['username'])) {
       </ul>
     </div>
   </div>
-  <div class="b-example-divider b-example-vr hotdog"></div>
+  <div class="b-example-vr hotdog ">
+    <?= include_once('../inc/d_load.php') ?>
+  </div>
 </main>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
       <script src="sidebars.js"></script>
