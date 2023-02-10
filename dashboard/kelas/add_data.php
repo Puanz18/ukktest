@@ -5,5 +5,5 @@
     <label for="kompetesi_keahlian">Jurusan</label>
     <input type="text" name="kompetesi_keahlian">
     <br>
-    <input type="submit" value="Tambah Data" name="submit">\
+    <input type="submit" value="Tambah Data" name="submit">
 </form>
