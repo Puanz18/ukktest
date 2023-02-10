@@ -1,3 +1,4 @@
+<a href="?url=addkelas">Tambah Data</a> 
     <thead>
             <td>No</td>
             <td>ID Kelas</td>
